@@ -11,26 +11,34 @@ const Produtos = () => {
       const data = await fetch('https://ranekapi.origamid.dev/json/api/produto')
       const json = await data.json()
       setProdutos(json)
-      return produtos
+      
     }
-
-    console.log(fetchData())
+    fetchData()
+    
   },[])
-
+  console.log(produtos);
 
   if(produtos === null) return null
   return (
     <>
-    <Head title="Dog  Produto" description="Página onde encontramos os produdtos" />
-    <ul>
-      {
-        produtos.map((produto, index) =>(
-          <li key={index}>
-            {produto}
-          </li>
-        ))
-      }
-    </ul>
+      <Head title="Dog  Produto" description="Página onde encontramos os produtos" />
+      <ul>
+        {
+          produtos.map((produto) =>(
+            <>
+              {produto.fotos.map( foto => (
+                <div>
+                  <img src={foto.src} alt={foto.titulo}/>
+                  
+                </div>
+              ))}
+              <li key={produto.id}>
+                {produto.nome}
+              </li>
+            </>
+          ))
+        }
+      </ul>
     </>
   )
 }
