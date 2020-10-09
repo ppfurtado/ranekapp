@@ -1,0 +1,10 @@
+.produtos {
+  display: grid;
+  grid-template-columns:  1fr 1fr;
+  justify-items: center;
+  gap: 30px 0;
+}
+
+.produtos img {
+  width: 400px;
+}

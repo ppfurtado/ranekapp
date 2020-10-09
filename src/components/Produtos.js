@@ -1,6 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Head from './Head'
-import style from './Produtos.module.css'
+import styles from './Produtos.module.css'
 
 const Produtos = () => {
 
@@ -21,24 +22,17 @@ const Produtos = () => {
   if(produtos === null) return null
   return (
     <>
-      <Head title="Dog  Produto" description="Página onde encontramos os produtos" />
-      <ul>
-        {
-          produtos.map((produto) =>(
-            <>
-              {produto.fotos.map( foto => (
-                <div>
-                  <img src={foto.src} alt={foto.titulo}/>
-                  
-                </div>
-              ))}
-              <li key={produto.id}>
-                {produto.nome}
-              </li>
-            </>
-          ))
-        }
-      </ul>
+      <Head title="Dog  Produto" description="Página onde encontramos os produtos" />  
+      <section className={styles.produtos + 'animeLeft'}>
+          {
+            produtos.map((produto) =>(
+              <Link to={`produto/${produto.id}`} key={produto.id} >
+                  <h1>{produto.nome}</h1>
+                  <img src={produto.fotos[0].src} alt={produto.fotos.titulo} />
+              </Link>
+            ))
+          }
+      </section>
     </>
   )
 }
