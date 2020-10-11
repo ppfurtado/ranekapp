@@ -17,13 +17,12 @@ const Produtos = () => {
     fetchData()
     
   },[])
-  console.log(produtos);
 
   if(produtos === null) return null
   return (
     <>
-      <Head title="Dog  Produto" description="Página onde encontramos os produtos" />  
-      <section className={styles.produtos + 'animeLeft'}>
+      <Head title="Ranek | Produtos" description="Página onde encontramos os produtos" />  
+      <section className={styles.produtos + ' animeLeft'}>
           {
             produtos.map((produto) =>(
               <Link to={`produto/${produto.id}`} key={produto.id} >
