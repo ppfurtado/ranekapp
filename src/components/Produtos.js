@@ -21,7 +21,7 @@ const Produtos = () => {
   if(produtos === null) return null
   return (
     <>
-      <Head title="Ranek | Produtos" description="Página onde encontramos os produtos" />  
+      <Head title="Ranek" description="Página onde encontramos os produtos" />  
       <section className={styles.produtos + ' animeLeft'}>
           {
             produtos.map((produto) =>(

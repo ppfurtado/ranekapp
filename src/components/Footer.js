@@ -5,7 +5,7 @@ import styles from './Footer.module.css'
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-       <p>Todos os direitos reservado a Pedro Paulo Furtado</p>
+       <p>Alguns os direitos reservado</p>
     </footer>
   )
 }
