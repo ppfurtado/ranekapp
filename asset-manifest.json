@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/ppfurtado/ranekapp/static/css/main.70d3ebe4.chunk.css",
-    "main.js": "/ppfurtado/ranekapp/static/js/main.cd731b06.chunk.js",
-    "main.js.map": "/ppfurtado/ranekapp/static/js/main.cd731b06.chunk.js.map",
-    "runtime-main.js": "/ppfurtado/ranekapp/static/js/runtime-main.ec37def7.js",
-    "runtime-main.js.map": "/ppfurtado/ranekapp/static/js/runtime-main.ec37def7.js.map",
-    "static/js/2.4baa5752.chunk.js": "/ppfurtado/ranekapp/static/js/2.4baa5752.chunk.js",
-    "static/js/2.4baa5752.chunk.js.map": "/ppfurtado/ranekapp/static/js/2.4baa5752.chunk.js.map",
-    "index.html": "/ppfurtado/ranekapp/index.html",
-    "precache-manifest.91375f5488aad77fb7e0eabad38b5e3c.js": "/ppfurtado/ranekapp/precache-manifest.91375f5488aad77fb7e0eabad38b5e3c.js",
-    "service-worker.js": "/ppfurtado/ranekapp/service-worker.js",
-    "static/css/main.70d3ebe4.chunk.css.map": "/ppfurtado/ranekapp/static/css/main.70d3ebe4.chunk.css.map",
-    "static/js/2.4baa5752.chunk.js.LICENSE.txt": "/ppfurtado/ranekapp/static/js/2.4baa5752.chunk.js.LICENSE.txt",
-    "static/media/contato.jpg": "/ppfurtado/ranekapp/static/media/contato.20d1d7bb.jpg"
+    "main.css": "/ranekapp/static/css/main.70d3ebe4.chunk.css",
+    "main.js": "/ranekapp/static/js/main.cd731b06.chunk.js",
+    "main.js.map": "/ranekapp/static/js/main.cd731b06.chunk.js.map",
+    "runtime-main.js": "/ranekapp/static/js/runtime-main.ea3abc21.js",
+    "runtime-main.js.map": "/ranekapp/static/js/runtime-main.ea3abc21.js.map",
+    "static/js/2.4baa5752.chunk.js": "/ranekapp/static/js/2.4baa5752.chunk.js",
+    "static/js/2.4baa5752.chunk.js.map": "/ranekapp/static/js/2.4baa5752.chunk.js.map",
+    "index.html": "/ranekapp/index.html",
+    "precache-manifest.1baf9fcac7b72ee147f896f9f795c099.js": "/ranekapp/precache-manifest.1baf9fcac7b72ee147f896f9f795c099.js",
+    "service-worker.js": "/ranekapp/service-worker.js",
+    "static/css/main.70d3ebe4.chunk.css.map": "/ranekapp/static/css/main.70d3ebe4.chunk.css.map",
+    "static/js/2.4baa5752.chunk.js.LICENSE.txt": "/ranekapp/static/js/2.4baa5752.chunk.js.LICENSE.txt",
+    "static/media/contato.jpg": "/ranekapp/static/media/contato.20d1d7bb.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ec37def7.js",
+    "static/js/runtime-main.ea3abc21.js",
     "static/js/2.4baa5752.chunk.js",
     "static/css/main.70d3ebe4.chunk.css",
     "static/js/main.cd731b06.chunk.js"
