@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/ranekapp/static/css/main.70d3ebe4.chunk.css",
-    "main.js": "/ranekapp/static/js/main.0e7c9647.chunk.js",
-    "main.js.map": "/ranekapp/static/js/main.0e7c9647.chunk.js.map",
+    "main.js": "/ranekapp/static/js/main.393cd7c3.chunk.js",
+    "main.js.map": "/ranekapp/static/js/main.393cd7c3.chunk.js.map",
     "runtime-main.js": "/ranekapp/static/js/runtime-main.ea3abc21.js",
     "runtime-main.js.map": "/ranekapp/static/js/runtime-main.ea3abc21.js.map",
-    "static/js/2.4baa5752.chunk.js": "/ranekapp/static/js/2.4baa5752.chunk.js",
-    "static/js/2.4baa5752.chunk.js.map": "/ranekapp/static/js/2.4baa5752.chunk.js.map",
+    "static/js/2.af793e91.chunk.js": "/ranekapp/static/js/2.af793e91.chunk.js",
+    "static/js/2.af793e91.chunk.js.map": "/ranekapp/static/js/2.af793e91.chunk.js.map",
     "index.html": "/ranekapp/index.html",
-    "precache-manifest.f9943f68f2836686e4099d60d1a6b6fc.js": "/ranekapp/precache-manifest.f9943f68f2836686e4099d60d1a6b6fc.js",
+    "precache-manifest.29e72418871de875facd0d58a1f7771b.js": "/ranekapp/precache-manifest.29e72418871de875facd0d58a1f7771b.js",
     "service-worker.js": "/ranekapp/service-worker.js",
     "static/css/main.70d3ebe4.chunk.css.map": "/ranekapp/static/css/main.70d3ebe4.chunk.css.map",
-    "static/js/2.4baa5752.chunk.js.LICENSE.txt": "/ranekapp/static/js/2.4baa5752.chunk.js.LICENSE.txt",
+    "static/js/2.af793e91.chunk.js.LICENSE.txt": "/ranekapp/static/js/2.af793e91.chunk.js.LICENSE.txt",
     "static/media/contato.jpg": "/ranekapp/static/media/contato.20d1d7bb.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ea3abc21.js",
-    "static/js/2.4baa5752.chunk.js",
+    "static/js/2.af793e91.chunk.js",
     "static/css/main.70d3ebe4.chunk.css",
-    "static/js/main.0e7c9647.chunk.js"
+    "static/js/main.393cd7c3.chunk.js"
   ]
 }
